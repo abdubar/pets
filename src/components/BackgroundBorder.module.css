@@ -1,0 +1,114 @@
+.vetimgjpgIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.veterinarianCare {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.newsletter {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 31px;
+  white-space: nowrap;
+}
+.footerLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-13xl);
+}
+.buyNow {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  line-height: 24px;
+  font-family: var(--abdubargithubio-poppins-regular-16);
+  color: var(--abdubargithubio-nero);
+  text-align: center;
+  display: inline-block;
+  min-width: 68px;
+}
+.button,
+.footerLinkItem {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 2px solid var(--abdubargithubio-robins-egg-blue);
+  padding: var(--padding-4xs) var(--padding-3xl);
+  background-color: var(--abdubargithubio-robins-egg-blue);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-lightseagreen);
+  border: 2px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+}
+.footerLinkItem {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base);
+}
+.footerLinkItemWrapper {
+  width: 142px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  color: var(--abdubargithubio-gray);
+}
+.footerContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs-6);
+}
+.backgroundborder,
+.footerContainer,
+.footerContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-35xl);
+}
+.backgroundborder {
+  height: 366.9px;
+  border-radius: var(--br-8xs);
+  background-color: var(--abdubargithubio-nero);
+  border: 1px solid var(--abdubargithubio-mercury);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-mini) var(--padding-base-3);
+  gap: var(--gap-mini);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--abdubargithubio-shark);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 450px) {
+  .footerContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

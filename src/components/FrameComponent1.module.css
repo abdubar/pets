@@ -1,0 +1,301 @@
+.heading2,
+.meetOurTeam {
+  display: flex;
+  align-items: center;
+}
+.meetOurTeam {
+  margin: 0;
+  width: 311px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: inherit;
+  justify-content: center;
+  min-height: 96px;
+}
+.heading2 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.animalCareExperts,
+.ourTeamOf,
+.thrive {
+  margin: 0;
+}
+.ourTeamOfContainer {
+  position: relative;
+  letter-spacing: -0.01px;
+  line-height: 28px;
+}
+.container1,
+.container2,
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container3 {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-lgi);
+  font-size: var(--abdubargithubio-poppins-regular-20-size);
+}
+.container1,
+.container2 {
+  width: 100%;
+}
+.container2 {
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 500px;
+}
+.container1 {
+  align-items: center;
+  padding: 0 var(--padding-xl) var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 1320px;
+}
+.team1jpgIcon {
+  width: 100%;
+  flex: 1;
+  position: relative;
+  max-width: 300px;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.container6 {
+  width: 100%;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
+.samanthaPullen {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01px;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heading3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-12xs-9);
+}
+.veterinarian {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 123px;
+}
+.container8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  font-size: var(--abdubargithubio-poppins-regular-20-size);
+}
+.icon {
+  height: 16px;
+  width: 13.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container9,
+.itemLink {
+  width: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemLink {
+  height: 30px;
+  width: 30px;
+  border-radius: var(--br-mini);
+  background-color: var(--abdubargithubio-amber);
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-5xs) var(--padding-5xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.icon1 {
+  height: 16px;
+  width: 9.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container10,
+.itemLink1 {
+  width: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemLink1 {
+  height: 30px;
+  width: 30px;
+  border-radius: var(--br-mini);
+  background-color: var(--abdubargithubio-amber);
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-3xs) var(--padding-5xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.icon2 {
+  height: 16px;
+  width: 14.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container11,
+.itemLink2 {
+  width: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.itemLink2 {
+  height: 30px;
+  width: 30px;
+  border-radius: var(--br-mini);
+  background-color: var(--abdubargithubio-amber);
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-5xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.container5,
+.container7,
+.list {
+  align-self: stretch;
+  display: flex;
+}
+.list {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl) 0;
+  gap: var(--gap-8xs-3);
+}
+.container5,
+.container7 {
+  flex-direction: column;
+}
+.container7 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.container5 {
+  align-items: center;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-10xl-1);
+  flex-shrink: 0;
+}
+.container4,
+.container5,
+.teamMembers {
+  justify-content: flex-start;
+}
+.container4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) var(--padding-10xl-8);
+  box-sizing: border-box;
+  min-width: 330px;
+  max-width: 1320px;
+}
+.teamMembers {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  row-gap: 20px;
+  font-size: var(--font-size-5xl);
+}
+.container,
+.containerWrapper,
+.teamMembers {
+  display: flex;
+  align-items: flex-start;
+}
+.container {
+  width: 1320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1320px;
+}
+.containerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-50xl-9);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--abdubargithubio-poppins-semibold-40-size);
+  color: var(--abdubargithubio-shark);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container,
+  .container1,
+  .container4 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .meetOurTeam {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .container2 {
+    max-width: 100%;
+  }
+  .containerWrapper {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .meetOurTeam {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .ourTeamOfContainer {
+    font-size: var(--abdubargithubio-poppins-regular-16-size);
+    line-height: 22px;
+  }
+  .samanthaPullen {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .veterinarian {
+    font-size: var(--abdubargithubio-poppins-regular-16-size);
+    line-height: 22px;
+  }
+  .list {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,127 @@
+.experiencedAnd,
+.lovingVeterinarians {
+  margin: 0;
+}
+.experiencedAndLovingContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.heading2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dedicatedToProviding,
+.ourTeamOf,
+.yourPets {
+  margin: 0;
+}
+.ourTeamOfContainer {
+  position: relative;
+  line-height: 28px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--abdubargithubio-poppins-regular-20-size);
+}
+.ourServices {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  line-height: 24px;
+  font-family: var(--abdubargithubio-poppins-regular-16);
+  color: var(--abdubargithubio-nero);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 100px;
+}
+.container,
+.container1,
+.link,
+.vets {
+  display: flex;
+  justify-content: flex-start;
+}
+.link {
+  cursor: pointer;
+  border: 1px solid var(--abdubargithubio-amber);
+  padding: var(--padding-4xs) var(--padding-3xl);
+  background-color: var(--abdubargithubio-amber);
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+.link:hover {
+  background-color: var(--color-darkgoldenrod);
+  border: 1px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+}
+.container,
+.container1,
+.vets {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container1 {
+  width: 466px;
+  gap: var(--gap-xl);
+  max-width: 466px;
+}
+.container,
+.vets {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  padding: 0 var(--padding-xs);
+  max-width: 1320px;
+}
+.vets {
+  flex: 1;
+  padding: var(--padding-88xl) 0 0;
+  min-width: 335px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--abdubargithubio-poppins-semibold-40-size);
+  color: var(--abdubargithubio-shark);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .experiencedAndLovingContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .container1 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .experiencedAndLovingContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .ourTeamOfContainer {
+    font-size: var(--abdubargithubio-poppins-regular-16-size);
+    line-height: 22px;
+  }
+  .vets {
+    padding-top: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}

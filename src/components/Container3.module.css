@@ -1,0 +1,129 @@
+.vacimgjpegIcon {
+  width: 335px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 345px;
+}
+.border,
+.link:hover {
+  box-sizing: border-box;
+}
+.border {
+  width: 100%;
+  border: 5px solid var(--abdubargithubio-nero);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 345px;
+}
+.shopCardButtons,
+.shopCardButtons1 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.shopCardButtons {
+  text-decoration: line-through;
+  min-width: 55px;
+}
+.shopCardButtons1 {
+  min-width: 54px;
+}
+.shopCardButtonsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl-5);
+}
+.buyNow {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  line-height: 24px;
+  font-family: var(--abdubargithubio-poppins-regular-16);
+  color: var(--abdubargithubio-nero);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 68px;
+}
+.link,
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.link {
+  cursor: pointer;
+  border: 2px solid var(--abdubargithubio-robins-egg-blue);
+  padding: var(--padding-4xs) var(--padding-19xl);
+  background-color: var(--abdubargithubio-robins-egg-blue);
+  flex: 1;
+  border-radius: var(--br-39xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.link:hover {
+  background-color: var(--color-lightseagreen);
+  border: 2px solid var(--color-lightseagreen);
+}
+.linkWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.frameParent {
+  width: 152.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base-5);
+}
+.container,
+.containerInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.containerInner {
+  width: 329.4px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-28xl) var(--padding-11xl);
+  gap: var(--gap-10xl-5);
+  max-width: 1320px;
+  text-align: center;
+  font-size: var(--abdubargithubio-poppins-semibold-28-size);
+  color: var(--abdubargithubio-nero);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shopCardButtons,
+  .shopCardButtons1 {
+    font-size: var(--abdubargithubio-poppins-regular-22-size);
+    line-height: 22px;
+  }
+  .container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

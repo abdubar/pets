@@ -1,0 +1,106 @@
+.blog1jpgIcon {
+  width: 100%;
+  height: 384px;
+  position: relative;
+  max-width: 396px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.keepingYourPet {
+  margin: 0;
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-22-size);
+  line-height: 27px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--abdubargithubio-shark);
+}
+.february092020 {
+  position: relative;
+  line-height: 28px;
+}
+.discoverTipsAnd,
+.keepYourPet {
+  margin: 0;
+}
+.discoverTipsAndContainer {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-20-size);
+  line-height: 28px;
+  color: var(--abdubargithubio-shark);
+}
+.filterOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.readMore {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 98px;
+}
+.border,
+.container,
+.searchField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchField {
+  flex-direction: column;
+  gap: var(--gap-mid-3);
+  max-width: 100%;
+}
+.border,
+.container {
+  box-sizing: border-box;
+}
+.border {
+  flex: 1;
+  border: 2px solid var(--abdubargithubio-silver);
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  gap: var(--gap-3xl-3);
+  max-width: 400px;
+}
+.container {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-39xl);
+  max-width: 1320px;
+  text-align: left;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  color: var(--abdubargithubio-robins-egg-blue);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blog1jpgIcon {
+    max-width: 100%;
+  }
+  .keepingYourPet {
+    font-size: var(--font-size-lg);
+    line-height: 21px;
+  }
+  .discoverTipsAndContainer {
+    font-size: var(--abdubargithubio-poppins-regular-16-size);
+    line-height: 22px;
+  }
+  .border {
+    max-width: 100%;
+  }
+}

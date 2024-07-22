@@ -1,0 +1,606 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>A Pet's Priority</title>
+<!--For responsive-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+<!--Bootstrap CSS from CDN-->    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/css/bootstrap.min.css" type="text/css">
+    
+<!--Style CSS-->    
+<link rel="stylesheet" href="style.css" type="text/css">    
+
+<!--Google Font-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">    
+
+<!--Font awesome icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />    
+
+</head>
+
+<body>
+    
+<!--  Start Header-->
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="output-onlinepngtools.png" alt="VetCare Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button id="toggleLanguage" class="btn btn-primary">Translate</button>
+        </nav>
+    </div>
+</header>
+<!--  End Header-->
+
+<!--Start Banner section-->
+<section id="home" class="banner-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="banner-text">
+                    <h1 data-en="Compassionate Veterinary Care" data-fr="Compatissant Soins vétérinaires">Compassionate Veterinary Care</h1>
+                    <p data-en="We provide exceptional care for your beloved pets, ensuring their health and happiness." data-fr="Nous prodiguons des soins exceptionnels à vos animaux de compagnie bien-aimés, garantissant leur santé et leur bonheur.">We provide exceptional care for your beloved pets, ensuring their health and happiness.</p>
+                    <div class="btn-main">
+                        <a href="#contact" class="btn btn-blue" data-en="Contact Us" data-fr="Contactez-nous">Contact Us</a>
+                        <a href="#services" class="btn btn-outline-light" data-en="Our Services" data-fr="Nos services">Our Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="banner-img">
+                    <img src="cat.png" alt="Happy Dog">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Banner section-->
+
+<!--Start About Section-->
+<section id="about" class="text-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="text-col">
+                    <h2 data-en="Experienced and Loving Veterinarians" data-fr="Vétérinaires expérimentés et aimants">Experienced and Loving Veterinarians</h2>
+                    <p data-en="Our team of veterinarians and animal lovers is dedicated to providing top-notch care for your pets." data-fr="Notre équipe de vétérinaires et d'amoureux des animaux est dédiée à fournir des soins de premier ordre à vos animaux de compagnie.">Our team of veterinarians and animal lovers is dedicated to providing top-notch care for your pets.</p>
+                    <a href="#services" class="btn btn-primary" data-en="Our Services" data-fr="Nos services">Our Services</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-img">
+                    <img src="dog1.jpg" alt="Veterinarian with a Dog">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End About Section-->
+
+<!--Start Services Section-->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-title" data-en="Our Services" data-fr="Nos services">Our Services</h2>
+                <p class="mb-4" data-en="We offer a wide range of veterinary services to keep your pets healthy and happy." data-fr="Nous offrons une large gamme de services vétérinaires pour garder vos animaux en bonne santé et heureux.">We offer a wide range of veterinary services to keep your pets healthy and happy.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="services.jpg" alt="Veterinary Care">
+                    </div>
+                    <h3 data-en="Veterinarian" data-fr="Vétérinaire">Veterinarian</h3>
+                    <p data-en="Comprehensive veterinary care, including check-ups, diagnostics, and treatment for various health conditions." data-fr="Soins vétérinaires complets, y compris les examens, diagnostics et traitements pour diverses conditions de santé.">Comprehensive veterinary care, including check-ups, diagnostics, and treatment for various health conditions.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="services1.jpg" alt="Vaccination Care">
+                    </div>
+                    <h3 data-en="Vaccination Care" data-fr="Soins de vaccination">Vaccination Care</h3>
+                    <p data-en="Protect your pets with our extensive vaccination programs, tailored to their specific needs." data-fr="Protégez vos animaux avec nos programmes de vaccination étendus, adaptés à leurs besoins spécifiques.">Protect your pets with our extensive vaccination programs, tailored to their specific needs.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="services3.jpg" alt="Dental Care">
+                    </div>
+                    <h3 data-en="Dental Care" data-fr="Soins dentaires">Dental Care</h3>
+                    <p data-en="Ensure your pet's oral health with our professional dental cleaning and treatment services." data-fr="Assurez la santé bucco-dentaire de votre animal avec nos services de nettoyage et de traitement dentaire professionnels.">Ensure your pet's oral health with our professional dental cleaning and treatment services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Services Section-->
+
+<!--Start Animal Section-->
+<section class="text-section animal-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="right-img">
+                    <img src="dog2.png" alt="Happy Dog">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="text-col">
+                    <h2 data-en="Passionate About Animal Care" data-fr="Passionné par les soins aux animaux">Passionate About Animal Care</h2>
+                    <p data-en="We are committed to providing the best care for your pets, ensuring their well-being and happiness." data-fr="Nous nous engageons à fournir les meilleurs soins pour vos animaux, garantissant leur bien-être et leur bonheur.">We are committed to providing the best care for your pets, ensuring their well-being and happiness.</p>
+                    <a href="#services" class="btn btn-primary" data-en="Our Services" data-fr="Nos services">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Animal Section-->
+
+<!--Start Shop Section-->
+<section class="shop-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="intro-main">
+                    <h2 class="section-title" data-en="Shop" data-fr="Boutique">Shop</h2>
+                    <p data-en="Find a variety of products to keep your pets healthy and happy." data-fr="Trouvez une variété de produits pour garder vos animaux en bonne santé et heureux.">Find a variety of products to keep your pets healthy and happy.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shop-box">
+                    <div class="shop-img">
+                        <img src="vetimg.jpg" alt="Dog Product">
+                    </div>
+                    <div class="shop-info">
+                        <div class="price">
+                            <span class="offer-price2">$50</span>
+                        </div>
+                        <a href="#contact" class="btn btn-blue" data-en="Buy Now" data-fr="Achetez maintenant">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shop-box">
+                    <div class="shop-img">
+                        <img src="vacimg.jpeg" alt="Dog Product">
+                    </div>
+                    <div class="shop-info">
+                        <div class="price">
+                            <span class="offer-price">$50</span>
+                            <span class="offer-price2">$30</span>
+                        </div>
+                        <a href="#contact" class="btn btn-blue" data-en="Buy Now" data-fr="Achetez maintenant">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shop-box">
+                    <div class="shop-img">
+                        <img src="dentimg.jpg" alt="Dog Product">
+                    </div>
+                    <div class="shop-info">
+                        <div class="price">
+                            <span class="offer-price">$50</span>
+                            <span class="offer-price2">$30</span>
+                        </div>
+                        <a href="#contact" class="btn btn-blue" data-en="Buy Now" data-fr="Achetez maintenant">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Shop Section-->
+
+<!--Start Team Section-->
+<section class="team-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="intro-main">
+                    <h2 class="section-title" data-en="Meet Our Team" data-fr="Rencontrez notre équipe">Meet Our Team</h2>
+                    <p data-en="Our team of experienced veterinarians and animal care experts are here to help your pets thrive." data-fr="Notre équipe de vétérinaires expérimentés et d'experts en soins animaliers est là pour aider vos animaux à prospérer.">Our team of experienced veterinarians and animal care experts are here to help your pets thrive.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="team1.jpg" alt="Samantha Pullen">
+                    </div>
+                    <div class="team-info">
+                        <h3 data-en="Samantha Pullen" data-fr="Samantha Pullen">Samantha Pullen</h3>
+                        <p data-en="Veterinarian" data-fr="Vétérinaire">Veterinarian</p>
+                        <ul class="team-social">
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="team2.jpg" alt="John Smith">
+                    </div>
+                    <div class="team-info">
+                        <h3 data-en="John Smith" data-fr="John Smith">John Smith</h3>
+                        <p data-en="Veterinarian" data-fr="Vétérinaire">Veterinarian</p>
+                        <ul class="team-social">
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="team3.jpg" alt="Emily Brown">
+                    </div>
+                    <div class="team-info">
+                        <h3 data-en="Emily Brown" data-fr="Emily Brown">Emily Brown</h3>
+                        <p data-en="Veterinarian" data-fr="Vétérinaire">Veterinarian</p>
+                        <ul class="team-social">
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Team Section-->
+
+<!--Start Stats Section-->
+<section class="stats-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="stats-box">
+                    <img src="icon1.png" alt="Happy Clients Icon">
+                    <h2 data-en="+34,793" data-fr="+34,793">+34,793</h2>
+                    <h3 data-en="Happy Clients" data-fr="Clients heureux">Happy Clients</h3>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="stats-box">
+                    <img src="icon2.png" alt="Departments Icon">
+                    <h2 data-en="+45,382" data-fr="+45,382">+45,382</h2>
+                    <h3 data-en="Departments" data-fr="Départements">Departments</h3>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="stats-box">
+                    <img src="icon3.png" alt="Vaccinations Icon">
+                    <h2 data-en="+54,762" data-fr="+54,762">+54,762</h2>
+                    <h3 data-en="Vaccinations" data-fr="Vaccinations">Vaccinations</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Stats Section-->
+
+<!--Start Blog Section-->
+<section class="blog-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="intro-main text-center">
+                    <h2 data-en="Recent Posts" data-fr="Articles récents">Recent Posts</h2>
+                    <p data-en="Stay updated with our latest news and articles on pet care." data-fr="Restez informé de nos dernières nouvelles et articles sur les soins aux animaux.">Stay updated with our latest news and articles on pet care.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="blog1.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-info">
+                        <h3 data-en="Keeping Your Pet Healthy" data-fr="Garder votre animal en bonne santé">Keeping Your Pet Healthy</h3>
+                        <span class="post-date" data-en="February 09, 2020" data-fr="09 février 2020">February 09, 2020</span>
+                        <p data-en="Discover tips and advice on how to keep your pet healthy and happy." data-fr="Découvrez des conseils et des astuces pour garder votre animal en bonne santé et heureux.">Discover tips and advice on how to keep your pet healthy and happy.</p>
+                        <a href="" class="link-more" data-en="Read More+" data-fr="En savoir plus+">Read More+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="blog2.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-info">
+                        <h3 data-en="Vaccination Guidelines" data-fr="Lignes directrices sur la vaccination">Vaccination Guidelines</h3>
+                        <span class="post-date" data-en="February 09, 2020" data-fr="09 février 2020">February 09, 2020</span>
+                        <p data-en="Learn about the importance of vaccinations and how they protect your pets." data-fr="Découvrez l'importance des vaccinations et comment elles protègent vos animaux de compagnie.">Learn about the importance of vaccinations and how they protect your pets.</p>
+                        <a href="" class="link-more" data-en="Read More+" data-fr="En savoir plus+">Read More+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="blog3.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-info">
+                        <h3 data-en="Dental Care for Pets" data-fr="Soins dentaires pour animaux">Dental Care for Pets</h3>
+                        <span class="post-date" data-en="February 09, 2020" data-fr="09 février 2020">February 09, 2020</span>
+                        <p data-en="Find out how to maintain your pet's oral health with our expert tips." data-fr="Découvrez comment maintenir la santé bucco-dentaire de votre animal avec nos conseils d'experts.">Find out how to maintain your pet's oral health with our expert tips.</p>
+                        <a href="" class="link-more" data-en="Read More+" data-fr="En savoir plus+">Read More+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Blog Section-->
+
+<!--Start Faceted Search Section-->
+<section id="faceted-search" class="faceted-search-section">
+    <div class="container">
+        <h2 data-en="Search Our Products" data-fr="Recherchez nos produits">Search Our Products</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="filter-panel">
+                    <h4 data-en="Filters" data-fr="Filtres">Filters</h4>
+                    <div class="filter-group">
+                        <h5 data-en="Category" data-fr="Catégorie">Category</h5>
+                        <ul>
+                            <li><input type="checkbox" class="filter" data-filter="category" value="veterinarian" data-en="Veterinarian" data-fr="Vétérinaire"> Veterinarian</li>
+                            <li><input type="checkbox" class="filter" data-filter="category" value="vaccination" data-en="Vaccination" data-fr="Vaccination"> Vaccination</li>
+                            <li><input type="checkbox" class="filter" data-filter="category" value="dental" data-en="Dental Care" data-fr="Soins dentaires"> Dental Care</li>
+                        </ul>
+                    </div>
+                    <div class="filter-group">
+                        <h5 data-en="Price" data-fr="Prix">Price</h5>
+                        <ul>
+                            <li><input type="checkbox" class="filter" data-filter="price" value="0-30" data-en="$0 - $30" data-fr="0 $ - 30 $"> $0 - $30</li>
+                            <li><input type="checkbox" class="filter" data-filter="price" value="31-50" data-en="$31 - $50" data-fr="31 $ - 50 $"> $31 - $50</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="product-list">
+                    <div class="product-item" data-category="veterinarian" data-price="50">
+                        <img src="vetimg.jpg" alt="Veterinarian Care Product">
+                        <h3 data-en="Veterinarian Care" data-fr="Soins vétérinaires">Veterinarian Care</h3>
+                        <p data-en="$50" data-fr="50 $">$50</p>
+                        <button class="btn btn-blue buy-now" data-product="Veterinarian Care" data-price="50" data-en="Buy Now" data-fr="Achetez maintenant">Buy Now</button>
+                    </div>
+                    <div class="product-item" data-category="vaccination" data-price="30">
+                        <img src="vacimg.jpeg" alt="Vaccination Care Product">
+                        <h3 data-en="Vaccination Care" data-fr="Soins de vaccination">Vaccination Care</h3>
+                        <p data-en="$30" data-fr="30 $">$30</p>
+                        <button class="btn btn-blue buy-now" data-product="Vaccination Care" data-price="30" data-en="Buy Now" data-fr="Achetez maintenant">Buy Now</button>
+                    </div>
+                    <div class="product-item" data-category="dental" data-price="30">
+                        <img src="dentimg.jpg" alt="Dental Care Product">
+                        <h3 data-en="Dental Care" data-fr="Soins dentaires">Dental Care</h3>
+                        <p data-en="$30" data-fr="30 $">$30</p>
+                        <button class="btn btn-blue buy-now" data-product="Dental Care" data-price="30" data-en="Buy Now" data-fr="Achetez maintenant">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Faceted Search Section-->
+
+<!-- Purchase Modal -->
+<div class="modal fade" id="purchaseModal" tabindex="-1" role="dialog" aria-labelledby="purchaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="purchaseModalLabel" data-en="Purchase Product" data-fr="Acheter le produit">Purchase Product</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="purchaseForm">
+                    <div class="form-group">
+                        <label for="productName" data-en="Product Name" data-fr="Nom du produit">Product Name</label>
+                        <input type="text" class="form-control" id="productName" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="productPrice" data-en="Product Price" data-fr="Prix du produit">Product Price</label>
+                        <input type="text" class="form-control" id="productPrice" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyerName" data-en="Your Name" data-fr="Votre nom">Your Name</label>
+                        <input type="text" class="form-control" id="buyerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyerEmail" data-en="Your Email" data-fr="Votre e-mail">Your Email</label>
+                        <input type="email" class="form-control" id="buyerEmail" required>
+                    </div>
+                    <button type="submit" class="btn btn-blue" data-en="Confirm Purchase" data-fr="Confirmer l'achat">Confirm Purchase</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Purchase Confirmation Modal -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel" data-en="Purchase Confirmation" data-fr="Confirmation d'achat">Purchase Confirmation</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p data-en="Thank you for your purchase! You have successfully bought" data-fr="Merci pour votre achat ! Vous avez bien acheté">Thank you for your purchase! You have successfully bought <span id="confirmProductName"></span> for <span id="confirmProductPrice"></span>.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Confirmation Modal -->
+<div class="modal fade" id="contactConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="contactConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactConfirmationModalLabel" data-en="Message Sent" data-fr="Message envoyé">Message Sent</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p data-en="Thank you for contacting us! We will get back to you soon." data-fr="Merci de nous avoir contactés ! Nous reviendrons vers vous bientôt.">Thank you for contacting us! We will get back to you soon.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Start Confirmed Purchases Section-->
+<section id="confirmed-purchases" class="confirmed-purchases-section">
+    <div class="container">
+        <h2 data-en="Confirmed Purchases" data-fr="Achats confirmés">Confirmed Purchases</h2>
+        <ul id="purchase-list" class="list-unstyled">
+            <!-- Confirmed purchases will be added here -->
+        </ul>
+    </div>
+</section>
+<!--End Confirmed Purchases Section-->
+
+<!--Start Contact Section-->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <h3 data-en="Contact Us" data-fr="Contactez-nous">Contact Us</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="contactName" data-en="Your Name" data-fr="Votre nom">Your Name</label>
+                            <input type="text" class="form-control" id="contactName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail" data-en="Your Email" data-fr="Votre e-mail">Your Email</label>
+                            <input type="email" class="form-control" id="contactEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage" data-en="Your Message" data-fr="Votre message">Your Message</label>
+                            <textarea class="form-control" id="contactMessage" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-blue" data-en="Send Message" data-fr="Envoyer le message">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h3 data-en="Contact Information" data-fr="Informations de contact">Contact Information</h3>
+                    <p data-en="We'd love to hear from you! Reach out to us for any questions or to schedule an appointment." data-fr="Nous aimerions avoir de vos nouvelles ! Contactez-nous pour toute question ou pour prendre rendez-vous.">We'd love to hear from you! Reach out to us for any questions or to schedule an appointment.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker"></i> 1234 Pet Street, Veterinary City, Petland</li>
+                        <li><i class="fa fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope"></i> contact@vetcare.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Contact Section-->
+
+<!--Start Footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-col footer-menu">
+                    <h3 data-en="About" data-fr="À propos">About</h3>
+                    <ul>
+                        <li><a href="#about" data-en="History" data-fr="Histoire">History</a></li>
+                        <li><a href="#about" data-en="Our Team" data-fr="Notre équipe">Our Team</a></li>
+                        <li><a href="#about" data-en="Brand Guidelines" data-fr="Lignes directrices de la marque">Brand Guidelines</a></li>
+                        <li><a href="#about" data-en="Terms & Conditions" data-fr="Termes et conditions">Terms & Conditions</a></li>
+                        <li><a href="#about" data-en="Privacy Policy" data-fr="Politique de confidentialité">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-col footer-menu">
+                    <h3 data-en="Services" data-fr="Services">Services</h3>
+                    <ul>
+                        <li><a href="#services" data-en="How to Order" data-fr="Comment commander">How to Order</a></li>
+                        <li><a href="#services" data-en="Our Products" data-fr="Nos produits">Our Products</a></li>
+                        <li><a href="#services" data-en="Order Status" data-fr="Statut de la commande">Order Status</a></li>
+                        <li><a href="#services" data-en="Promo" data-fr="Promo">Promo</a></li>
+                        <li><a href="#services" data-en="Payment Method" data-fr="Méthode de paiement">Payment Method</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="subscribe-form">
+                    <h3 data-en="Subscribe" data-fr="S'abonner">Subscribe</h3>
+                    <p data-en="Stay updated with our latest news and offers. Subscribe to our newsletter." data-fr="Restez informé de nos dernières nouvelles et offres. Abonnez-vous à notre newsletter.">Stay updated with our latest news and offers. Subscribe to our newsletter.</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" data-en="Enter your email" data-fr="Entrez votre email">
+                            <button type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </div>
+                    </form>
+                    <ul class="footer-social">
+                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End Footer-->
+
+<!--Jquery and Bootstrap JS from CDN-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+
+<!--Custom JS-->
+<script src="faceted-search.js"></script>
+
+<script>
+    document.getElementById('toggleLanguage').addEventListener('click', function() {
+        document.querySelectorAll('[data-en]').forEach(function(el) {
+            const currentLang = el.textContent.trim();
+            el.textContent = (currentLang === el.getAttribute('data-en')) ? el.getAttribute('data-fr') : el.getAttribute('data-en');
+        });
+    });
+</script>
+
+</body>
+</html>

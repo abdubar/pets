@@ -1,0 +1,256 @@
+.compassionate,
+.veterinaryCare {
+  margin: 0;
+}
+.compassionateVeterinaryCareContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.heading1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.petsEnsuringTheir,
+.weProvideExceptional {
+  margin: 0;
+}
+.weProvideExceptionalContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.container4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--abdubargithubio-poppins-regular-22-size);
+}
+.contactUs {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  line-height: 24px;
+  font-family: var(--abdubargithubio-poppins-regular-16);
+  color: var(--abdubargithubio-nero);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 89px;
+}
+.link {
+  cursor: pointer;
+  border: 2px solid var(--abdubargithubio-robins-egg-blue);
+  padding: var(--padding-4xs) var(--padding-3xl);
+  background-color: var(--abdubargithubio-robins-egg-blue);
+  width: 137px;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.link1:hover,
+.link:hover {
+  background-color: var(--color-lightseagreen);
+  border: 2px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+}
+.ourServices {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-16-size);
+  line-height: 24px;
+  font-family: var(--abdubargithubio-poppins-regular-16);
+  color: var(--abdubargithubio-athens-gray);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 100px;
+  white-space: nowrap;
+}
+.link1 {
+  cursor: pointer;
+  border: 2px solid var(--abdubargithubio-nero);
+  padding: var(--padding-4xs) var(--padding-3xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link1:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 2px solid var(--color-gainsboro-100);
+}
+.container2,
+.container3,
+.container5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container5 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-212xl) 0 0;
+  gap: var(--gap-5xl-3);
+}
+.container2,
+.container3 {
+  flex-direction: column;
+}
+.container3 {
+  width: 541px;
+  gap: var(--gap-xl);
+  max-width: 541px;
+}
+.container2 {
+  flex: 1;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 335px;
+  max-width: 1320px;
+}
+.dogpngIcon {
+  width: 512px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  max-width: 636px;
+}
+.container6,
+.container7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container7 {
+  align-self: stretch;
+  justify-content: center;
+}
+.container6 {
+  height: 684px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 335px;
+  max-width: 1320px;
+  margin-left: -2px;
+}
+.container1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container,
+.container1,
+.hero,
+.section {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1320px;
+}
+.hero,
+.section {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section {
+  flex: 1;
+  background-color: var(--abdubargithubio-amber);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+}
+.hero {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  text-align: left;
+  font-size: var(--abdubargithubio-poppins-medium-56-size);
+  color: var(--abdubargithubio-nero);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container,
+  .container2,
+  .container6 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .section {
+    padding-top: var(--padding-46xl);
+  }
+  .hero,
+  .section {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .compassionateVeterinaryCareContainer {
+    font-size: var(--font-size-26xl);
+    line-height: 54px;
+  }
+  .container5 {
+    padding-right: var(--padding-96xl);
+    box-sizing: border-box;
+  }
+  .container3,
+  .dogpngIcon {
+    max-width: 100%;
+  }
+  .hero {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .compassionateVeterinaryCareContainer {
+    font-size: var(--font-size-15xl);
+    line-height: 41px;
+  }
+  .weProvideExceptionalContainer {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+  .container5 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .section {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

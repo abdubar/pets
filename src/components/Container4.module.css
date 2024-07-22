@@ -1,0 +1,91 @@
+.servicesjpgIcon {
+  height: 354px;
+  flex: 1;
+  position: relative;
+  max-width: 340px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.container1,
+.containerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.container1 {
+  flex: 1;
+  padding: 0 var(--padding-12xs);
+  max-width: 340px;
+}
+.containerWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-9xl) 0 var(--padding-8xl);
+  max-width: 100%;
+}
+.veterinarian {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.veterinarianWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.comprehensiveVeterinaryCare,
+.includingCheckUpsDiagnosti,
+.treatmentForVarious {
+  margin: 0;
+}
+.comprehensiveVeterinaryCareContainer {
+  position: relative;
+  font-size: var(--abdubargithubio-poppins-regular-20-size);
+  line-height: 28px;
+}
+.container,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-5xs-6);
+}
+.container {
+  padding: 0 var(--padding-3xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 1320px;
+  text-align: center;
+  font-size: var(--abdubargithubio-poppins-semibold-28-size);
+  color: var(--abdubargithubio-nero);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .veterinarian {
+    font-size: var(--abdubargithubio-poppins-regular-22-size);
+    line-height: 27px;
+  }
+  .comprehensiveVeterinaryCareContainer {
+    font-size: var(--abdubargithubio-poppins-regular-16-size);
+    line-height: 22px;
+  }
+  .container {
+    gap: var(--gap-mini);
+  }
+}

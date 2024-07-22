@@ -1,0 +1,110 @@
+.ourServices {
+  margin: 0;
+  width: 255px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-height: 96px;
+}
+.weOfferA {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -24px;
+  left: calc(50% - 407.4px);
+  font-size: var(--abdubargithubio-poppins-regular-20-size);
+  line-height: 28px;
+}
+.container1,
+.serviceCards {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1320px;
+}
+.serviceCards {
+  align-self: stretch;
+  display: grid;
+  justify-content: flex-start;
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(330px, 1fr));
+  font-size: var(--abdubargithubio-poppins-semibold-28-size);
+}
+.container,
+.section {
+  display: flex;
+  align-items: flex-start;
+}
+.container {
+  width: 1320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1320px;
+}
+.section {
+  align-self: stretch;
+  background-color: var(--abdubargithubio-amber);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-xl) var(--padding-51xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--abdubargithubio-poppins-semibold-40-size);
+  color: var(--abdubargithubio-nero);
+  font-family: var(--abdubargithubio-poppins-regular-16);
+}
+@media screen and (max-width: 1325px) {
+  .container,
+  .container1 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .serviceCards {
+    grid-row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(330px, 572px));
+  }
+  .section {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ourServices {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .serviceCards {
+    grid-template-columns: minmax(330px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourServices {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .weOfferA {
+    font-size: var(--abdubargithubio-poppins-regular-16-size);
+    line-height: 22px;
+  }
+  .section {
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
